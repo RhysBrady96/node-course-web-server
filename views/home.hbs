@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+    </head>
+
+    <body>
+        {{> header}}
+        {{!-- screamIt is a helper function, welcomeMessage is the parameter that is passed
+        into "screamIt" --}}
+        <p>{{screamIt welcomeMessage}}</p>
+        
+        {{> footer}}
+    </body>
+
+</html>

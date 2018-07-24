@@ -1,0 +1,17 @@
+{{!-- NOTE: The file extension here is .hbs! --}}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Some Website</title>
+    </head>
+
+    <body>
+        {{> header}}
+        <p>some newer text from a template</p>
+
+        {{!-- This INJECTS the partial called footer that can be found in the "partials" folder 
+        its a bit like a method call really, including the HTML that can be found in the partial--}}
+        {{> footer}}
+    </body>
+</html>
